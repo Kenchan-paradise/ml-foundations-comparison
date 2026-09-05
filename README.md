@@ -10,8 +10,9 @@ Comparing 6 classical ML algorithms on the Titanic survival dataset.
 
 ## Results
 |      | Actual 0 | Actual 1 |
-| Predicted 0 | Correct (True Negative) | Wrong (False Negative) |
-| Predicted 1 | Wrong (False Positive) | Correct (True Positive) |
+| --- | --- | --- |
+| **Predicted 0** | Correct => True Negative | Wrong => False Negative |
+| **Predicted 1** | Wrong => False Positive | Correct => True Positive |
 
 
 ![Confusion Matrix](confusion_matrix.png)
