@@ -17,12 +17,26 @@ Comparing 6 classical ML algorithms on the Titanic survival dataset.
 
 ![Confusion Matrix](confusion_matrix.png)
 
+The 4 metrics to evaluate the trained models are...
+
+- **Accuracy**: what fraction of all predictions were correct overall <br />
 Correct: 97 + 51 = 148 <br />
 Incorrect: 18 + 13 = 31 <br />
-Total: 179
-
+Total: 179 <br />
 Overall Accuracy: 148/179 = 83%
 
+- **Precision**: of the passengers the model predicted "survived", what fraction actually did ( measures false alarms) <br />
+Correct suvivors: 51 <br />
+Predicted survivors: 51 + 13 = 64 <br />
+Precision: 51/64 = 78%
+
+- **Recall**: of the passerngers who actually survived, what fraction did the model catch ( measures missed cases) <br />
+Total survivors: 18 + 51 = 69 <br />
+Caught survivors: 51 <br />
+Recall: 51/69 = 74%
+
+
+- **F1**: a single balanced score combining precision and recall (useful because recall can trade off against each other) <br />
+F1 = 2 * (Precision * Recall) / (Precision + Recall)
 
 ## Takeaways
-[2-3 sentences: which model won, why you think so, one thing you'd try next time]
