@@ -17,8 +17,8 @@ Comparing 6 classical ML algorithms on the Titanic survival dataset.
 
 ![Confusion Matrix](confusion_matrix.png)
 
-Correct: 97 + 51 = 148
-Incorrect: 18 + 13 = 31
+Correct: 97 + 51 = 148 <br />
+Incorrect: 18 + 13 = 31 <br />
 Total: 179
 
 Overall Accuracy: 148/179 = 83%
