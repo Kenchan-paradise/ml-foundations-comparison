@@ -37,6 +37,8 @@ Recall: 51/69 = 74%
 
 
 - **F1**: a single balanced score combining precision and recall (useful because recall can trade off against each other) <br />
-F1 = 2 * (Precision * Recall) / (Precision + Recall)
+F1 = 2 * (Precision * Recall) / (Precision + Recall) <br />
+2 * (0.796875 * 0.73913) / (0.796875 + 0.73913) = 0.766917
 
 ## Takeaways
+At first glance, I thought a simple avarage number of Precision and Recall could suffice to evaluate the model due to its simplicity of calculation. However, application of the avarage might overlook the unbalanced score gap between Precision and Recall when one is significantly higher than the other. Thus, F1 is more trustworthy because the two value need to be high and balanced to score high.
