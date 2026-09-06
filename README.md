@@ -41,4 +41,4 @@ F1 = 2 * (Precision * Recall) / (Precision + Recall) <br />
 2 * (0.796875 * 0.73913) / (0.796875 + 0.73913) = 0.766917
 
 ## Takeaways
-At first glance, I thought a simple avarage number of Precision and Recall could suffice to evaluate the model due to its simplicity of calculation. However, application of the avarage might overlook the unbalanced score gap between Precision and Recall when one is significantly higher than the other. Thus, F1 is more trustworthy because the two value need to be high and balanced to score high.
+At first glance, I thought a simple avarage number of the Precision and the Recall, *the arithmetic means*, could suffice to evaluate the model due to its simplicity of calculation. However, application of the avarage hides the unbalanced score gap between the Precision and the Recall when one is significantly higher than the other. Thus, the F1, *the harmonic means*, is more trustworthy because the both value need to be high and balanced.
