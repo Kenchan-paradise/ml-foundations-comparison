@@ -15,7 +15,7 @@ Comparing 6 classical ML algorithms on the Titanic survival dataset.
 | **Actual 1** | Wrong => False Negative | Correct => True Positive |
 
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](confusion_matrix_KNN.png)
 
 The 4 metrics to evaluate the trained models are...
 
